@@ -1,0 +1,77 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+.mdiv{
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url(https://media.istockphoto.com/id/1160567385/photo/summer-heat.webp?s=1024x1024&w=is&k=20&c=jBfGUUSUKVb_fypjtLVjZmcHiTlbgq_F9KXBEKhqSA0=);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.container{
+	height: 470px;
+	width: 400px;
+	box-shadow: 0px 0px 20px grey;
+	border-radius: 30px;
+	padding: 20px;
+	background: transparent;
+	backdrop-filter:blur(20px);
+background-image: url(https://38.media.tumblr.com/881e3d69a7d9c419fafd22a2101df496/tumblr_nx05oaK4B81udvy5wo1_500.gif);
+}
+.heading{
+	color:darkviolet;
+	font-family: Arial Black;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+input[type="text"]{
+	height: 30px;
+	width:180px;
+	padding-left: 10px;
+	outline: none;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.srch_btn{
+	border:none;
+	background-color: transparent;
+	padding-top: 20px;
+	cursor: pointer;
+}
+.component{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.btn{
+	margin-top: -20px;
+	margin-left: 10px;
+}
+
+#city{
+	color: orangered;
+	font-family: Arial Black;
+	font-size: 20px;
+}
+.measurement{
+	font-family: Arial Black;
+	font-weight: bolder;
+}
+.headings{
+	color:darkslateblue;
+	font-family: Arial Black;
+	font-size: 12px;
+}
+
+
+
